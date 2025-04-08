@@ -4,10 +4,12 @@ export const themes = {
     light:{
         background: "white",
         text: "black",
+        type: "light",
     },
     dark:{
         background: "black",
-        text: "white"
+        text: "white",
+        type: "dark"
     }
 }
 

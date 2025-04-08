@@ -10,7 +10,7 @@ const ThemeButton = () => {
         style={{backgroundColor: theme.background, color:theme.text}}
         onClick={toggleTheme}
     >
-        {theme.light ? <Moon height={15} width={15}/> : <Sun height={15} width={15}/>}
+        {theme.type === "light" ? <Moon height={15} width={15}/> : <Sun height={15} width={15}/>}
     </button>
   )
 }
